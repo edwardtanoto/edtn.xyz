@@ -1,0 +1,60 @@
+@font-face {
+    font-family: PlusJakarta;
+    src: url(./fonts/PlusJakartaSans-Regular.ttf);
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: PlusJakartaBold;
+    src: url(./fonts/PlusJakartaSans-Bold.ttf);
+    font-weight: bold;
+  }
+  @font-face {
+    font-family: PlusJakartaLight;
+    src: url(./fonts/PlusJakartaSans-Light.ttf);
+    font-weight: lighter;
+  }
+@font-face {
+    font-family: PlusJakartaItalic;
+    src: url(./fonts/PlusJakartaSans-Italic.ttf);
+}
+
+* {
+    font-family: PlusJakarta;
+}
+.btn {outline:none;}
+.title {
+    font-family: PlusJakartaBold;
+    font-size: 2rem;
+}
+body {
+    background-color: white;
+    color: black;
+    transition : 0.5s
+  }
+
+.dark-mode {
+    background-color: #090909;
+    color: white;
+}
+.card{
+    padding: 20px;
+    background-color: #dffdff ;
+}
+
+.card-dark-mode {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.link-dark-mode{
+    color: #FF5050;
+    transition: 0.2s;
+}
+.link-dark-mode:hover{
+    color: rgb(255, 193, 193);
+}
+
+.bold{
+    font-family: PlusJakartaBold;
+}
